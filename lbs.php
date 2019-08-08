@@ -1,7 +1,12 @@
 <?php
+
+$access_token = "A-2szoYus7mB13l5axDrr_1234AApSz8eu236GRNsoBQ";
+$address = "9771234567";
+$requestedAccuracy = "100";
+
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://devapi.globelabs.com.ph/location/v1/queries/location?access_token=<access_token>&address=<address>&requestedAccuracy=100",
+  CURLOPT_URL => "https://devapi.globelabs.com.ph/location/v1/queries/location?access_token=".$access_token."&address=".$address."&requestedAccuracy=".$requestedAccuracy ,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
