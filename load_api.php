@@ -1,10 +1,10 @@
 <?php
 
-$app_id = 'B54z9Ug5512HHrTGRT5g6hq64pGUq6ap';
-$app_secret = 'f655413712345607a696cd40741993758c411af3bb5f6c230270ec26e8d54126';
-$rewards_token = 'AbCkxKYid_F_p-JSgTejow';
-$address = '9001234567';
-$promo = 'LOAD 1';
+$app_id = "B54z9Ug5512HHrTGRT5g6hq64pGUq6ap";
+$app_secret = "f655413712345607a696cd40741993758c411af3bb5f6c230270ec26e8d54126";
+$rewards_token = "AbCkxKYid_F_p-JSgTejow";
+$address = "9001234567";
+$promo = "LOAD 1";
 
 $curl = curl_init();
 curl_setopt_array($curl, array(
